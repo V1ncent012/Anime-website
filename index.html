@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Box icons -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- Nav -->
+    <header>
+        <a href="#" class="logo">
+            <i class='bx bxs-movie'></i>
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <!-- Menu -->
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Нүүр</a></li>
+            <li><a href="#movies">Кино</a></li>
+            <li><a href="#coming">Бүрэн Хэмжээний</a></li>
+            <li><a href="#Newsletter">Мэдээ</a></li>
+            <li><a href="#">Манга</a></li>
+        </ul>
+        <a href="Login-system/login.html" class="btn">Нэвтрэх</a>
+    </header>
+    <!-- Home -->
+    <section class="home swiper"  id="home">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide conatiner">
+                <img src="img/hanako.webp" alt="">
+                <div class="home-text">
+                    <span>Season 1</span>
+                    <h1>Toilet-bound Hanako-kun</h1>
+                    <a href="#" class="btn">Trailer</a>
+                    <a href="aot.html" class="play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Box 2 -->
+            <div class="swiper-slide conatiner">
+                <img src="img/characters-from-jujutsu-kaisen_3840x2160_xtrafondos.com.jpg" alt="">
+                <div class="home-text">
+                    <span>Season 3</span>
+                    <h1>Jujutsu Kaisen</h1>
+                    <a href="#" class="btn">Trailer</a>
+                    <a href="#" class="play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Box 3 -->
+            <div class="swiper-slide conatiner">
+                <img src="img/tokyo-revengers-characters_3840x2160_xtrafondos.com.jpg" alt="">
+                <div class="home-text">
+                    <span>Season 2</span>
+                    <h1>Tokyo Revengers</h1>
+                    <a href="#" class="btn">Trailer</a>
+                    <a href="#" class="play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+          <!-- Marquee -->
+          <div class="swiper-pagination"></div>
+    </section>
+    <div class="marquee">
+        <ul class="marquee-content">
+            <li><img src="img/aot-lastepisode.webp" alt=""><p>Attack on Titan <br>Сүүлийн бүлэг</p></li>
+            <li><img src="img/spy-episode3.jpe" alt=""><p>Spy x Family<br>3-р анги</p></li>
+            <li><img src="img/one-piece-wano-i149539.jpg" alt=""><p>One piece<br>1083-р анги</p></li>
+            <li><img src="img/bleach-episode.webp" alt=""><p>Bleach<br>254-р анги</p></li>
+        </ul>
+    </div>
+    <!-- Movies -->
+    <section class="movies" id="movies">
+        <h2 class="heading">Кино</h2>
+        <!-- Movies Conatiner-->
+        <div class="movies-container">
+            <!-- Box 1 -->
+            <div class="box aot">
+                <div class="box-img">
+                <img src="img/attack on titan.jpg" alt="">
+                    <div class="card-body">
+                        <h2>Давшигч Титан</h2>
+                        <p style="font-size: small;">Season 4 <br>Part 3</p>
+                        <button class="button-85" role="button">Play</button>
+                    </div>
+                </div>
+                
+                <h3>Attack on Titan</h3>
+                <span>Season 4| Thriller</span>
+            </div>
+            <!-- Box 2 -->
+            <div class="box">
+                <div class="box-img">
+                <img src="img/under ninja.jpe" alt="">
+                </div>
+                <h3>Under ninja</h3>
+                <span>Season 1 | Action</span>
+            </div>
+            <!-- Box 3 -->
+            <div class="box">
+                <div class="box-img">
+                <img src="img/tokyo revengers.jpeg" alt="">
+                </div>
+                <h3>Tokyo Revengers</h3>
+                <span>Season 3 | Adventure</span>
+            </div>
+            <!-- Box 4 -->
+            <div class="box">
+                <div class="box-img">
+                <img src="img/Death.jpg" alt="">
+                </div>
+                <h3>Death Note</h3>
+                <span>Season 1| Thriller </span>
+            </div>
+            <!-- Box 5 -->
+            <div class="box">
+                <div class="box-img">
+                <img src="img/DITF.jpg" alt="">
+                </div>
+                <h3>Darling in The Franxx</h3>
+                <span>Season 1| Drama</span>
+            </div>
+             <!-- Box 6 -->
+            <div class="box">
+                <div class="box-img">
+                <img src="img/op.jpg" alt="">
+                </div>
+                <h3>One Piece</h3>
+                <span>Season 20 | Adventure </span>
+            </div>
+             <!-- Box 7 -->
+            <div class="box">
+                <div class="box-img">
+                <img src="img/hunterxhunter.jpe" alt="">
+                </div>
+                <h3>Hunter x Hunter</h3>
+                <span>Season 1 | Adventure</span>
+            </div>
+            <!-- Box 8 -->
+            <div class="box">
+                <div class="box-img">
+                <img src="img/Intial D.jpg" alt="">
+                </div>
+                <h3>Fire Fighters</h3>
+                <span>Season 1 | Thriller</span>
+            </div>
+            <!-- Box 9 -->
+            <div class="box">
+                <div class="box-img">
+                <img src="img/Doctor Stone.jpg" alt="">
+                </div>
+                <h3>Doctor Stone</h3>
+                <span>Season 3 | Action</span>
+            </div>
+            <!-- Box 10 -->
+            <div class="box">
+                <div class="box-img">
+                <img src="img/chainsaw man.jpg" alt="">
+                </div>
+                <h3>Chainsaw Man</h3>
+                <span>Season 1 | Action</span>
+            </div>
+
+        </div>
+    </section>
+    <!-- Coming -->
+    <section class="coming" id="coming">
+        <h2 class="heading">Бүрэн Хэмжээний Анимэ</h2>
+        <!-- Coming Container -->
+        <div class=" coming-container swiper">
+            <div class="swiper-wrapper">
+                <!-- Box 1 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                <img src="img/suzume.jpg" alt="">
+                </div>
+                <h3>Suzume</h3>
+                <span> | Action</span>
+            </div>
+            <!-- Box 2 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                <img src="img/tototo.jpg" alt="">
+                </div>
+                <h3>My Neighbor Totoro</h3>
+                <span> | Adventure</span>
+            </div>
+            <!-- Box 3 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                <img src="img/Ponyo_on_the_Cliff_by_the_Sea-309484645-large.jpg" alt="">
+                </div>
+                <h3>Ponyo</h3>
+                <span> | Thriller</span>
+            </div>
+            <!-- Box 4 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                <img src="img/yr.jpe" alt="">
+                </div>
+                <h3>Your Name</h3>
+                <span> | Adventure </span>
+            </div>
+            <!-- Box 5 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                <img src="img/sprited away.png" alt="">
+                </div>
+                <h3>Sprited Away</h3>
+                <span> | Action </span>
+            </div>
+             <!-- Box 6 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                <img src="img/ghost.avif" alt="">
+                </div>
+                <h3>Ghost in The Shell</h3>
+                <span>  | Thriller </span>
+            </div>
+             <!-- Box 7 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                <img src="img/howl.jpg" alt="">
+                </div>
+                <h3>Howl's moving Castle</h3>
+                <span>  | Adventure</span>
+            </div>
+            <!-- Box 8 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                <img src="img/perfect blue.jpg" alt="">
+                </div>
+                <h3>Perfect Blue</h3>
+                <span>  | Thriller</span>
+            </div>
+            <!-- Box 9 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                <img src="img/the wind rises.jpg" alt="">
+                </div>
+                <h3>The Wind Rises</h3>
+                <span>  | Action</span>
+            </div>
+            <!-- Box 10 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                <img src="img/jujutsu kaisen 0.jpg" alt="">
+                </div>
+                <h3>Jujutsu Kaisen 0</h3>
+                <span> | Action</span>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- Coming -->
+    <section class="coming" id="coming">
+        <h2 class="heading">Манга</h2>
+        <!-- Coming Container -->
+        <div class=" coming-container swiper">
+            <div class="swiper-wrapper">
+                <!-- Box 1 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                <a href="Manga/Solo leveling/solo-leveling.html"><img src="Manga/Solo leveling/454d49e5-4967-4174-9e44-1648bc92cc96.webp" alt=""></a>
+                </div>
+                <h3>Solo Leveling</h3>
+                <span>| Action</span>
+            </div>
+            <!-- Box 2 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                <img src="img/tototo.jpg" alt="">
+                </div>
+                <h3>My Neighbor Totoro</h3>
+                <span>| Adventure</span>
+            </div>
+            <!-- Box 3 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                <img src="img/Ponyo_on_the_Cliff_by_the_Sea-309484645-large.jpg" alt="">
+                </div>
+                <h3>Ponyo</h3>
+                <span>| Thriller</span>
+            </div>
+            <!-- Box 4 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                <img src="img/yr.jpe" alt="">
+                </div>
+                <h3>Your Name</h3>
+                <span>| Adventure </span>
+            </div>
+            <!-- Box 5 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                <img src="img/sprited away.png" alt="">
+                </div>
+                <h3>Sprited Away</h3>
+                <span>| Action </span>
+            </div>
+             <!-- Box 6 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                <img src="img/ghost.avif" alt="">
+                </div>
+                <h3>Ghost in The Shell</h3>
+                <span>| Thriller </span>
+            </div>
+             <!-- Box 7 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                <img src="img/howl.jpg" alt="">
+                </div>
+                <h3>Howl's moving Castle</h3>
+                <span>| Adventure</span>
+            </div>
+            <!-- Box 8 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                <img src="img/perfect blue.jpg" alt="">
+                </div>
+                <h3>Perfect Blue</h3>
+                <span>| Thriller</span>
+            </div>
+            <!-- Box 9 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                <img src="img/the wind rises.jpg" alt="">
+                </div>
+                <h3>The Wind Rises</h3>
+                <span>| Action</span>
+            </div>
+            <!-- Box 10 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                <img src="img/jujutsu kaisen 0.jpg" alt="">
+                </div>
+                <h3>Jujutsu Kaisen 0</h3>
+                <span>| Action</span>
+            </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- News letter-->
+    
+    <!-- Footer -->
+   
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- FOtter -->
+  <footer class="footer">
+    <section class="newsletter" id="newsletter">
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d945.3758724332814!2d106.92653472269402!3d47.918454564376944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d96923f36c78f65%3A0x5253148ab8144e67!2sIder%20University!5e0!3m2!1sen!2smn!4v1700908338557!5m2!1sen!2smn" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+         <form action="">
+             <input type="email" class="email" placeholder="Enter Email..." required>
+             <input type="submit" value="Subscribe" class="btn">
+         </form>
+     </section>
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social-icon">
+    </ul>
+    <ul class="menu">
+      <section class="footer">
+        <div class="social">
+            <a href="https://www.facebook.com/profile.php?id=100075480590236">
+                <i class="bx bxl-facebook"></i>
+                <i class="bx bxl-twitter"></i>
+                <i class="bx bxl-instagram"></i>
+                <i class="bx bxl-tiktok"></i>
+            </a>
+        </div>
+    </section>
+    </ul>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
